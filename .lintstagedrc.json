@@ -1,4 +1,4 @@
 {
-  "src/**/*.{ts,tsx}": ["eslint 'src/**/*.{ts,tsx}' --fix"],
+  "src/**/*.{ts,tsx}": ["eslint 'src/**/*.{ts,tsx}' --fix", "bash -c tsc --noEmit --skipLibCheck --jsx react-jsx"],
   "src/**/*.{css,scss}": ["prettier --write"]
 }
