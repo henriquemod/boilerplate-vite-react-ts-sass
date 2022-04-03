@@ -1,0 +1,4 @@
+{
+  "src/**/*.{ts,tsx}": ["eslint 'src/**/*.{ts,tsx}' --fix", "tsc --noEmit --skipLibCheck --jsx react-jsx"],
+  "src/**/*.{css,scss}": ["prettier --write"]
+}
