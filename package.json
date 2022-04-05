@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "build:clean": "yarn build; yarn clear-buildinfo",
     "pre-commit": "lint-staged",
     "preview": "vite preview",
     "prepare": "husky install",
